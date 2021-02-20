@@ -1,0 +1,50 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 700;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.title-underline {
+    width: 100px;
+    height: 5px;
+    margin: 0 auto;
+    /* background-color: black!important; */
+}
+
+height-80 {
+    min-height: 60vh;
+}
+
+.about-picture {
+    background: url("../img/about-bcg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.underline-color {
+    background-color: chocolate;
+}
+
+#team {
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+#projects {
+    min-height: 80vh;
+}
+
+
+/* radient ekhne amra riight to left top to bottom any costom value add korte parbo  */
+
+#filler,
+#progress {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../img/projects-4.jpeg")center/cover no-repeat fixed;
+}
